@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="GUI">
+    <file>Images/Green-hydrogen-scaled.jpg</file>
+  </qresource>
+</RCC>
