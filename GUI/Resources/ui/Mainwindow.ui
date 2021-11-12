@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1000</width>
-    <height>600</height>
+    <height>661</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -25,7 +25,7 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <layout class="QHBoxLayout" name="horizontalLayout" stretch="2,0">
+  <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,0">
    <item>
     <widget class="QTreeWidget" name="treeWidget">
      <property name="maximumSize">
@@ -104,7 +104,7 @@
       </font>
      </property>
      <property name="currentIndex">
-      <number>1</number>
+      <number>7</number>
      </property>
      <widget class="QWidget" name="Component_page">
       <property name="maximumSize">
@@ -191,8 +191,8 @@ color: rgb(0, 0, 255);</string>
       <widget class="QPushButton" name="wind_build">
        <property name="geometry">
         <rect>
-         <x>170</x>
-         <y>390</y>
+         <x>440</x>
+         <y>374</y>
          <width>93</width>
          <height>28</height>
         </rect>
@@ -206,18 +206,24 @@ color: rgb(0, 0, 255);</string>
         <string>Build</string>
        </property>
       </widget>
-      <widget class="QWidget" name="">
+      <widget class="QWidget" name="layoutWidget">
        <property name="geometry">
         <rect>
          <x>10</x>
          <y>70</y>
-         <width>251</width>
-         <height>291</height>
+         <width>321</width>
+         <height>331</height>
         </rect>
        </property>
        <layout class="QGridLayout" name="gridLayout_5">
         <item row="0" column="0">
          <widget class="QLabel" name="label_22">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
           <property name="font">
            <font>
             <pointsize>10</pointsize>
@@ -230,6 +236,12 @@ color: rgb(0, 0, 255);</string>
         </item>
         <item row="0" column="1">
          <widget class="QLineEdit" name="wind_radius">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
           <property name="font">
            <font>
             <pointsize>7</pointsize>
@@ -238,10 +250,19 @@ color: rgb(0, 0, 255);</string>
           <property name="text">
            <string>40</string>
           </property>
+          <property name="placeholderText">
+           <string/>
+          </property>
          </widget>
         </item>
         <item row="1" column="0">
          <widget class="QLabel" name="label_23">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
           <property name="font">
            <font>
             <pointsize>10</pointsize>
@@ -254,6 +275,12 @@ color: rgb(0, 0, 255);</string>
         </item>
         <item row="1" column="1">
          <widget class="QLineEdit" name="wind_height">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
           <property name="font">
            <font>
             <pointsize>7</pointsize>
@@ -266,6 +293,12 @@ color: rgb(0, 0, 255);</string>
         </item>
         <item row="2" column="0">
          <widget class="QLabel" name="label_77">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
           <property name="font">
            <font>
             <pointsize>10</pointsize>
@@ -278,6 +311,12 @@ color: rgb(0, 0, 255);</string>
         </item>
         <item row="2" column="1">
          <widget class="QLineEdit" name="wind_ci_speed">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
           <property name="font">
            <font>
             <pointsize>7</pointsize>
@@ -290,6 +329,12 @@ color: rgb(0, 0, 255);</string>
         </item>
         <item row="3" column="0">
          <widget class="QLabel" name="label_78">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
           <property name="font">
            <font>
             <pointsize>10</pointsize>
@@ -302,6 +347,12 @@ color: rgb(0, 0, 255);</string>
         </item>
         <item row="3" column="1">
          <widget class="QLineEdit" name="wind_co_speed">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
           <property name="font">
            <font>
             <pointsize>7</pointsize>
@@ -314,6 +365,12 @@ color: rgb(0, 0, 255);</string>
         </item>
         <item row="4" column="0">
          <widget class="QLabel" name="label_85">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
           <property name="font">
            <font>
             <pointsize>10</pointsize>
@@ -326,6 +383,12 @@ color: rgb(0, 0, 255);</string>
         </item>
         <item row="4" column="1">
          <widget class="QLineEdit" name="wind_rate_speed">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
           <property name="font">
            <font>
             <pointsize>7</pointsize>
@@ -338,6 +401,12 @@ color: rgb(0, 0, 255);</string>
         </item>
         <item row="5" column="0">
          <widget class="QLabel" name="label_86">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
           <property name="font">
            <font>
             <pointsize>10</pointsize>
@@ -350,6 +419,12 @@ color: rgb(0, 0, 255);</string>
         </item>
         <item row="5" column="1">
          <widget class="QLineEdit" name="wind_capex">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
           <property name="font">
            <font>
             <pointsize>7</pointsize>
@@ -362,6 +437,12 @@ color: rgb(0, 0, 255);</string>
         </item>
         <item row="6" column="0">
          <widget class="QLabel" name="label_87">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
           <property name="font">
            <font>
             <pointsize>10</pointsize>
@@ -374,6 +455,12 @@ color: rgb(0, 0, 255);</string>
         </item>
         <item row="6" column="1">
          <widget class="QLineEdit" name="wind_opex">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
           <property name="font">
            <font>
             <pointsize>7</pointsize>
@@ -386,6 +473,12 @@ color: rgb(0, 0, 255);</string>
         </item>
         <item row="7" column="0">
          <widget class="QLabel" name="label_88">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
           <property name="font">
            <font>
             <pointsize>10</pointsize>
@@ -398,6 +491,12 @@ color: rgb(0, 0, 255);</string>
         </item>
         <item row="7" column="1">
          <widget class="QLineEdit" name="wind_lifetime">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
           <property name="font">
            <font>
             <pointsize>7</pointsize>
@@ -409,6 +508,22 @@ color: rgb(0, 0, 255);</string>
          </widget>
         </item>
        </layout>
+      </widget>
+      <widget class="QTextEdit" name="wind_text">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>430</y>
+         <width>521</width>
+         <height>87</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+       <property name="placeholderText">
+        <string>Status</string>
+       </property>
       </widget>
      </widget>
      <widget class="QWidget" name="PV">
@@ -461,14 +576,14 @@ color: rgb(0, 0, 255);</string>
       <widget class="QToolBox" name="toolBox">
        <property name="geometry">
         <rect>
-         <x>20</x>
-         <y>70</y>
+         <x>10</x>
+         <y>60</y>
          <width>571</width>
-         <height>421</height>
+         <height>461</height>
         </rect>
        </property>
        <property name="currentIndex">
-        <number>0</number>
+        <number>1</number>
        </property>
        <property name="tabSpacing">
         <number>6</number>
@@ -478,8 +593,8 @@ color: rgb(0, 0, 255);</string>
          <rect>
           <x>0</x>
           <y>0</y>
-          <width>571</width>
-          <height>281</height>
+          <width>98</width>
+          <height>28</height>
          </rect>
         </property>
         <property name="sizePolicy">
@@ -491,25 +606,37 @@ color: rgb(0, 0, 255);</string>
         <attribute name="label">
          <string>Basic information</string>
         </attribute>
-        <widget class="QWidget" name="">
+        <widget class="QWidget" name="layoutWidget">
          <property name="geometry">
           <rect>
            <x>340</x>
            <y>10</y>
            <width>223</width>
-           <height>97</height>
+           <height>121</height>
           </rect>
          </property>
          <layout class="QGridLayout" name="gridLayout">
           <item row="0" column="0">
            <widget class="QLabel" name="label_37">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>35</height>
+             </size>
+            </property>
             <property name="text">
              <string>Temperature</string>
             </property>
            </widget>
           </item>
           <item row="0" column="1">
-           <widget class="QLineEdit" name="lineEdit_19">
+           <widget class="QLineEdit" name="Ele_temp">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>35</height>
+             </size>
+            </property>
             <property name="text">
              <string>90</string>
             </property>
@@ -517,6 +644,12 @@ color: rgb(0, 0, 255);</string>
           </item>
           <item row="0" column="2">
            <widget class="QLabel" name="label_93">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>35</height>
+             </size>
+            </property>
             <property name="text">
              <string>℃</string>
             </property>
@@ -524,13 +657,25 @@ color: rgb(0, 0, 255);</string>
           </item>
           <item row="1" column="0">
            <widget class="QLabel" name="label_38">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>35</height>
+             </size>
+            </property>
             <property name="text">
              <string>Pressure</string>
             </property>
            </widget>
           </item>
           <item row="1" column="1">
-           <widget class="QLineEdit" name="lineEdit_20">
+           <widget class="QLineEdit" name="Ele_pre">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>35</height>
+             </size>
+            </property>
             <property name="text">
              <string>30</string>
             </property>
@@ -538,6 +683,12 @@ color: rgb(0, 0, 255);</string>
           </item>
           <item row="1" column="2">
            <widget class="QLabel" name="label_94">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>35</height>
+             </size>
+            </property>
             <property name="text">
              <string>Bar</string>
             </property>
@@ -545,13 +696,25 @@ color: rgb(0, 0, 255);</string>
           </item>
           <item row="2" column="0">
            <widget class="QLabel" name="label_39">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>35</height>
+             </size>
+            </property>
             <property name="text">
              <string>Lifetime</string>
             </property>
            </widget>
           </item>
           <item row="2" column="1">
-           <widget class="QLineEdit" name="lineEdit_21">
+           <widget class="QLineEdit" name="Ele_life">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>35</height>
+             </size>
+            </property>
             <property name="text">
              <string>20</string>
             </property>
@@ -559,6 +722,12 @@ color: rgb(0, 0, 255);</string>
           </item>
           <item row="2" column="2">
            <widget class="QLabel" name="label_95">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>35</height>
+             </size>
+            </property>
             <property name="text">
              <string>Year</string>
             </property>
@@ -566,30 +735,48 @@ color: rgb(0, 0, 255);</string>
           </item>
          </layout>
         </widget>
-        <widget class="QWidget" name="">
+        <widget class="QWidget" name="layoutWidget">
          <property name="geometry">
           <rect>
            <x>3</x>
            <y>11</y>
-           <width>311</width>
-           <height>233</height>
+           <width>321</width>
+           <height>289</height>
           </rect>
          </property>
          <layout class="QGridLayout" name="gridLayout_6">
           <item row="0" column="0">
            <widget class="QLabel" name="label">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>35</height>
+             </size>
+            </property>
             <property name="text">
              <string>Capacity</string>
             </property>
            </widget>
           </item>
           <item row="0" column="1">
-           <widget class="QLineEdit" name="lineEdit_2">
+           <widget class="QLineEdit" name="Ele_cap">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>35</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>100</width>
+              <height>16777215</height>
+             </size>
             </property>
             <property name="text">
              <string>2</string>
@@ -598,6 +785,12 @@ color: rgb(0, 0, 255);</string>
           </item>
           <item row="0" column="2">
            <widget class="QLabel" name="label_17">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>35</height>
+             </size>
+            </property>
             <property name="text">
              <string>MW</string>
             </property>
@@ -605,18 +798,36 @@ color: rgb(0, 0, 255);</string>
           </item>
           <item row="1" column="0">
            <widget class="QLabel" name="label_2">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>35</height>
+             </size>
+            </property>
             <property name="text">
              <string>Number</string>
             </property>
            </widget>
           </item>
           <item row="1" column="1">
-           <widget class="QLineEdit" name="lineEdit_3">
+           <widget class="QLineEdit" name="Ele_number">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>35</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>100</width>
+              <height>16777215</height>
+             </size>
             </property>
             <property name="text">
              <string>1</string>
@@ -625,18 +836,36 @@ color: rgb(0, 0, 255);</string>
           </item>
           <item row="2" column="0">
            <widget class="QLabel" name="label_3">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>35</height>
+             </size>
+            </property>
             <property name="text">
              <string>Capex</string>
             </property>
            </widget>
           </item>
           <item row="2" column="1">
-           <widget class="QLineEdit" name="lineEdit_4">
+           <widget class="QLineEdit" name="Ele_capex">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>35</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>100</width>
+              <height>16777215</height>
+             </size>
             </property>
             <property name="text">
              <string>1000</string>
@@ -645,6 +874,12 @@ color: rgb(0, 0, 255);</string>
           </item>
           <item row="2" column="2">
            <widget class="QLabel" name="label_18">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>35</height>
+             </size>
+            </property>
             <property name="text">
              <string>$/kW</string>
             </property>
@@ -652,18 +887,36 @@ color: rgb(0, 0, 255);</string>
           </item>
           <item row="3" column="0">
            <widget class="QLabel" name="label_4">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>35</height>
+             </size>
+            </property>
             <property name="text">
              <string>OM cost</string>
             </property>
            </widget>
           </item>
           <item row="3" column="1">
-           <widget class="QLineEdit" name="lineEdit_5">
+           <widget class="QLineEdit" name="Ele_opex">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>35</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>100</width>
+              <height>16777215</height>
+             </size>
             </property>
             <property name="text">
              <string>0.02</string>
@@ -672,6 +925,12 @@ color: rgb(0, 0, 255);</string>
           </item>
           <item row="3" column="2">
            <widget class="QLabel" name="label_57">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>35</height>
+             </size>
+            </property>
             <property name="text">
              <string>Capex</string>
             </property>
@@ -679,18 +938,36 @@ color: rgb(0, 0, 255);</string>
           </item>
           <item row="4" column="0">
            <widget class="QLabel" name="label_5">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>35</height>
+             </size>
+            </property>
             <property name="text">
              <string>Minimum load</string>
             </property>
            </widget>
           </item>
           <item row="4" column="1">
-           <widget class="QLineEdit" name="lineEdit_11">
+           <widget class="QLineEdit" name="Ele_min_lf">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>35</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>100</width>
+              <height>16777215</height>
+             </size>
             </property>
             <property name="text">
              <string>0.1</string>
@@ -699,6 +976,12 @@ color: rgb(0, 0, 255);</string>
           </item>
           <item row="4" column="2">
            <widget class="QLabel" name="label_58">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>35</height>
+             </size>
+            </property>
             <property name="text">
              <string>% nominal</string>
             </property>
@@ -706,18 +989,36 @@ color: rgb(0, 0, 255);</string>
           </item>
           <item row="5" column="0">
            <widget class="QLabel" name="label_15">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>35</height>
+             </size>
+            </property>
             <property name="text">
              <string>Maximum load</string>
             </property>
            </widget>
           </item>
           <item row="5" column="1">
-           <widget class="QLineEdit" name="lineEdit_12">
+           <widget class="QLineEdit" name="Ele_max_lf">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>35</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>100</width>
+              <height>16777215</height>
+             </size>
             </property>
             <property name="text">
              <string>1.0</string>
@@ -726,6 +1027,12 @@ color: rgb(0, 0, 255);</string>
           </item>
           <item row="5" column="2">
            <widget class="QLabel" name="label_59">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>35</height>
+             </size>
+            </property>
             <property name="text">
              <string>% nominal</string>
             </property>
@@ -733,21 +1040,39 @@ color: rgb(0, 0, 255);</string>
           </item>
           <item row="6" column="0">
            <widget class="QLabel" name="label_16">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>35</height>
+             </size>
+            </property>
             <property name="text">
              <string>Efficiency</string>
             </property>
            </widget>
           </item>
           <item row="6" column="1">
-           <widget class="QLineEdit" name="lineEdit_13">
+           <widget class="QLineEdit" name="Ele_nom_eff">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
               <horstretch>0</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>35</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>100</width>
+              <height>16777215</height>
+             </size>
+            </property>
             <property name="text">
-             <string>50</string>
+             <string>48.65</string>
             </property>
            </widget>
           </item>
@@ -756,7 +1081,7 @@ color: rgb(0, 0, 255);</string>
             <property name="minimumSize">
              <size>
               <width>70</width>
-              <height>0</height>
+              <height>35</height>
              </size>
             </property>
             <item>
@@ -775,13 +1100,13 @@ color: rgb(0, 0, 255);</string>
           <x>0</x>
           <y>0</y>
           <width>571</width>
-          <height>281</height>
+          <height>341</height>
          </rect>
         </property>
         <attribute name="label">
          <string>Partial load properties</string>
         </attribute>
-        <widget class="QCheckBox" name="checkBox">
+        <widget class="QCheckBox" name="Ele_vary_eff">
          <property name="geometry">
           <rect>
            <x>10</x>
@@ -794,37 +1119,82 @@ color: rgb(0, 0, 255);</string>
           <string>Enabled</string>
          </property>
         </widget>
-        <widget class="QWidget" name="">
+        <widget class="QWidget" name="VarEffWidget" native="true">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
          <property name="geometry">
           <rect>
-           <x>10</x>
+           <x>0</x>
            <y>40</y>
-           <width>324</width>
-           <height>63</height>
+           <width>451</width>
+           <height>121</height>
           </rect>
          </property>
-         <layout class="QGridLayout" name="gridLayout_3">
-          <item row="0" column="0">
-           <widget class="QLabel" name="label_14">
-            <property name="text">
-             <string>Efficiency at half load (kWh/kg)</string>
-            </property>
-           </widget>
-          </item>
-          <item row="0" column="1">
-           <widget class="QLineEdit" name="lineEdit_14"/>
-          </item>
-          <item row="1" column="0">
-           <widget class="QLabel" name="label_19">
-            <property name="text">
-             <string>Efficiency at 0.25 load (kWh/kg)</string>
-            </property>
-           </widget>
-          </item>
-          <item row="1" column="1">
-           <widget class="QLineEdit" name="lineEdit_15"/>
-          </item>
-         </layout>
+         <widget class="QWidget" name="layoutWidget">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>20</y>
+            <width>324</width>
+            <height>91</height>
+           </rect>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_3">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_14">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Efficiency at half load (kWh/kg)</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="Ele_half_eff">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>45.5</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_19">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Efficiency at 0.25 load (kWh/kg)</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLineEdit" name="Ele_qua_eff">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>35</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>43.14</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
         </widget>
        </widget>
        <widget class="QWidget" name="page_5">
@@ -832,8 +1202,8 @@ color: rgb(0, 0, 255);</string>
          <rect>
           <x>0</x>
           <y>0</y>
-          <width>571</width>
-          <height>281</height>
+          <width>98</width>
+          <height>28</height>
          </rect>
         </property>
         <attribute name="label">
@@ -846,19 +1216,25 @@ color: rgb(0, 0, 255);</string>
          <property name="geometry">
           <rect>
            <x>10</x>
-           <y>30</y>
+           <y>40</y>
            <width>481</width>
-           <height>201</height>
+           <height>241</height>
           </rect>
          </property>
          <widget class="QLabel" name="label_20">
           <property name="geometry">
            <rect>
             <x>11</x>
-            <y>38</y>
-            <width>115</width>
-            <height>16</height>
+            <y>30</y>
+            <width>161</width>
+            <height>35</height>
            </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
           </property>
           <property name="text">
            <string>Start up time (hour)</string>
@@ -868,23 +1244,35 @@ color: rgb(0, 0, 255);</string>
           <property name="geometry">
            <rect>
             <x>11</x>
-            <y>11</y>
-            <width>91</width>
+            <y>10</y>
+            <width>120</width>
             <height>20</height>
            </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>120</width>
+            <height>0</height>
+           </size>
           </property>
           <property name="text">
            <string>Hot start</string>
           </property>
          </widget>
-         <widget class="QLineEdit" name="lineEdit_27">
+         <widget class="QLineEdit" name="Ele_hot_time">
           <property name="geometry">
            <rect>
-            <x>133</x>
-            <y>38</y>
+            <x>190</x>
+            <y>30</y>
             <width>137</width>
-            <height>24</height>
+            <height>35</height>
            </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
           </property>
           <property name="toolTip">
            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hello world&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -893,7 +1281,7 @@ color: rgb(0, 0, 255);</string>
            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
           <property name="text">
-           <string/>
+           <string>0.1</string>
           </property>
          </widget>
          <widget class="QLabel" name="label_31">
@@ -902,24 +1290,36 @@ color: rgb(0, 0, 255);</string>
             <x>11</x>
             <y>69</y>
             <width>98</width>
-            <height>16</height>
+            <height>35</height>
            </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
           </property>
           <property name="text">
            <string>Start up cost ($) </string>
           </property>
          </widget>
-         <widget class="QLineEdit" name="lineEdit_28">
+         <widget class="QLineEdit" name="Ele_hot_cost">
           <property name="geometry">
            <rect>
-            <x>133</x>
-            <y>69</y>
+            <x>190</x>
+            <y>70</y>
             <width>137</width>
-            <height>24</height>
+            <height>35</height>
            </rect>
           </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
           <property name="text">
-           <string/>
+           <string>30</string>
           </property>
          </widget>
          <widget class="QCheckBox" name="checkBox_7">
@@ -927,9 +1327,15 @@ color: rgb(0, 0, 255);</string>
            <rect>
             <x>11</x>
             <y>111</y>
-            <width>101</width>
+            <width>120</width>
             <height>20</height>
            </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>120</width>
+            <height>0</height>
+           </size>
           </property>
           <property name="text">
            <string>Cold start</string>
@@ -940,49 +1346,79 @@ color: rgb(0, 0, 255);</string>
            <rect>
             <x>11</x>
             <y>138</y>
-            <width>115</width>
-            <height>16</height>
+            <width>171</width>
+            <height>35</height>
            </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
           </property>
           <property name="text">
            <string>Start up time (hour)</string>
           </property>
          </widget>
-         <widget class="QLineEdit" name="lineEdit_29">
+         <widget class="QLineEdit" name="Ele_cold_time">
           <property name="geometry">
            <rect>
-            <x>133</x>
+            <x>190</x>
             <y>138</y>
             <width>137</width>
-            <height>24</height>
+            <height>35</height>
            </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>2</string>
           </property>
          </widget>
          <widget class="QLabel" name="label_33">
           <property name="geometry">
            <rect>
             <x>11</x>
-            <y>169</y>
+            <y>180</y>
             <width>98</width>
-            <height>16</height>
+            <height>35</height>
            </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
           </property>
           <property name="text">
            <string>Start up cost ($) </string>
           </property>
          </widget>
-         <widget class="QLineEdit" name="lineEdit_30">
+         <widget class="QLineEdit" name="Ele_cold_cost">
           <property name="geometry">
            <rect>
-            <x>133</x>
-            <y>169</y>
+            <x>190</x>
+            <y>180</y>
             <width>137</width>
-            <height>24</height>
+            <height>35</height>
            </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>100</string>
           </property>
          </widget>
         </widget>
-        <widget class="QCheckBox" name="checkBox_2">
+        <widget class="QCheckBox" name="Ele_on_off">
          <property name="geometry">
           <rect>
            <x>10</x>
@@ -1001,14 +1437,14 @@ color: rgb(0, 0, 255);</string>
          <rect>
           <x>0</x>
           <y>0</y>
-          <width>571</width>
-          <height>281</height>
+          <width>98</width>
+          <height>28</height>
          </rect>
         </property>
         <attribute name="label">
          <string>Heat generation</string>
         </attribute>
-        <widget class="QCheckBox" name="checkBox_3">
+        <widget class="QCheckBox" name="Heat_bool">
          <property name="geometry">
           <rect>
            <x>10</x>
@@ -1036,8 +1472,8 @@ color: rgb(0, 0, 255);</string>
       <widget class="QPushButton" name="pushButton_4">
        <property name="geometry">
         <rect>
-         <x>390</x>
-         <y>520</y>
+         <x>10</x>
+         <y>560</y>
          <width>93</width>
          <height>28</height>
         </rect>
@@ -1097,14 +1533,20 @@ color: rgb(0, 0, 255);</string>
       </widget>
      </widget>
      <widget class="QWidget" name="Calculation_page">
-      <widget class="QPushButton" name="pushButton_2">
+      <widget class="QPushButton" name="Calculate">
        <property name="geometry">
         <rect>
-         <x>330</x>
-         <y>370</y>
-         <width>81</width>
-         <height>31</height>
+         <x>260</x>
+         <y>470</y>
+         <width>150</width>
+         <height>41</height>
         </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>150</width>
+         <height>35</height>
+        </size>
        </property>
        <property name="text">
         <string>Calculate</string>
@@ -1113,15 +1555,27 @@ color: rgb(0, 0, 255);</string>
       <widget class="QWidget" name="layoutWidget">
        <property name="geometry">
         <rect>
-         <x>20</x>
-         <y>100</y>
-         <width>384</width>
-         <height>241</height>
+         <x>10</x>
+         <y>80</y>
+         <width>401</width>
+         <height>231</height>
         </rect>
        </property>
        <layout class="QGridLayout" name="gridLayout_7">
         <item row="0" column="0">
          <widget class="QLabel" name="label_35">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
           <property name="text">
            <string>Operational strategies</string>
           </property>
@@ -1129,6 +1583,18 @@ color: rgb(0, 0, 255);</string>
         </item>
         <item row="0" column="1">
          <widget class="QComboBox" name="comboBox_3">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>150</width>
+            <height>16777215</height>
+           </size>
+          </property>
           <item>
            <property name="text">
             <string>Rule based</string>
@@ -1143,6 +1609,18 @@ color: rgb(0, 0, 255);</string>
         </item>
         <item row="1" column="0">
          <widget class="QLabel" name="label_80">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
           <property name="text">
            <string>Operational objective</string>
           </property>
@@ -1150,6 +1628,18 @@ color: rgb(0, 0, 255);</string>
         </item>
         <item row="1" column="1">
          <widget class="QComboBox" name="comboBox_7">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>150</width>
+            <height>16777215</height>
+           </size>
+          </property>
           <item>
            <property name="text">
             <string>Minimize cost</string>
@@ -1164,6 +1654,18 @@ color: rgb(0, 0, 255);</string>
         </item>
         <item row="2" column="0">
          <widget class="QLabel" name="label_36">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
           <property name="text">
            <string>Time resolution (hour)</string>
           </property>
@@ -1171,6 +1673,18 @@ color: rgb(0, 0, 255);</string>
         </item>
         <item row="2" column="1">
          <widget class="QSpinBox" name="spinBox">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>150</width>
+            <height>16777215</height>
+           </size>
+          </property>
           <property name="minimum">
            <number>1</number>
           </property>
@@ -1181,6 +1695,18 @@ color: rgb(0, 0, 255);</string>
         </item>
         <item row="3" column="0">
          <widget class="QLabel" name="label_79">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
           <property name="text">
            <string>Green certificate</string>
           </property>
@@ -1188,6 +1714,18 @@ color: rgb(0, 0, 255);</string>
         </item>
         <item row="3" column="1">
          <widget class="QCheckBox" name="checkBox_15">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>150</width>
+            <height>16777215</height>
+           </size>
+          </property>
           <property name="text">
            <string/>
           </property>
@@ -1195,6 +1733,18 @@ color: rgb(0, 0, 255);</string>
         </item>
         <item row="4" column="0">
          <widget class="QLabel" name="label_81">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
           <property name="text">
            <string>Carbon trading</string>
           </property>
@@ -1202,6 +1752,18 @@ color: rgb(0, 0, 255);</string>
         </item>
         <item row="4" column="1">
          <widget class="QCheckBox" name="checkBox_16">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>150</width>
+            <height>16777215</height>
+           </size>
+          </property>
           <property name="text">
            <string/>
           </property>
@@ -1226,6 +1788,84 @@ color: rgb(0, 0, 255);</string>
        <property name="text">
         <string>Calculation settings</string>
        </property>
+      </widget>
+      <widget class="QLabel" name="label_99">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>320</y>
+         <width>260</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>13</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Meteorological data</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>360</y>
+         <width>401</width>
+         <height>37</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLabel" name="label_21">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>170</width>
+            <height>35</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>Wind Speed data</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="wind_speed_data_display">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QToolButton" name="wind_speed_data">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>...</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </widget>
      </widget>
      <widget class="QWidget" name="Results_page">
@@ -1266,68 +1906,133 @@ color: rgb(0, 0, 255);</string>
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:6.6pt;&quot;&gt;Print some calculation information&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Print some calculation information&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
-      <widget class="QWidget" name="">
+      <widget class="QWidget" name="layoutWidget">
        <property name="geometry">
         <rect>
          <x>10</x>
          <y>290</y>
-         <width>321</width>
-         <height>165</height>
+         <width>381</width>
+         <height>205</height>
         </rect>
        </property>
        <layout class="QGridLayout" name="gridLayout_10">
         <item row="0" column="0">
          <widget class="QLabel" name="label_6">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
           <property name="text">
            <string>LCOH($/kg)</string>
           </property>
          </widget>
         </item>
         <item row="0" column="1">
-         <widget class="QLineEdit" name="lineEdit_6"/>
+         <widget class="QLineEdit" name="LCOH">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
+         </widget>
         </item>
         <item row="1" column="0">
          <widget class="QLabel" name="label_7">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
           <property name="text">
            <string>Wind capacity factor</string>
           </property>
          </widget>
         </item>
         <item row="1" column="1">
-         <widget class="QLineEdit" name="lineEdit_7"/>
+         <widget class="QLineEdit" name="Wind_cf">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
+         </widget>
         </item>
         <item row="2" column="0">
          <widget class="QLabel" name="label_8">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
           <property name="text">
            <string>Wind curtailment(MWh)</string>
           </property>
          </widget>
         </item>
         <item row="2" column="1">
-         <widget class="QLineEdit" name="lineEdit_8"/>
+         <widget class="QLineEdit" name="Wind_curt">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
+         </widget>
         </item>
         <item row="3" column="0">
          <widget class="QLabel" name="label_9">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
           <property name="text">
-           <string>H2 total production (kg)</string>
+           <string>H2 total production (ton)</string>
           </property>
          </widget>
         </item>
         <item row="3" column="1">
-         <widget class="QLineEdit" name="lineEdit_9"/>
+         <widget class="QLineEdit" name="H2_production">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
+         </widget>
         </item>
         <item row="4" column="0">
          <widget class="QLabel" name="label_10">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
           <property name="text">
            <string>Electrolyser total working hours</string>
           </property>
          </widget>
         </item>
         <item row="4" column="1">
-         <widget class="QLineEdit" name="lineEdit_10"/>
+         <widget class="QLineEdit" name="Ele_total_hours">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>35</height>
+           </size>
+          </property>
+         </widget>
         </item>
        </layout>
       </widget>
@@ -1357,14 +2062,14 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_2</sender>
+   <sender>Calculate</sender>
    <signal>clicked()</signal>
    <receiver>Form</receiver>
    <slot>calculate()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>799</x>
-     <y>411</y>
+     <y>521</y>
     </hint>
     <hint type="destinationlabel">
      <x>961</x>
@@ -1373,7 +2078,7 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
   <connection>
-   <sender>checkBox</sender>
+   <sender>Ele_vary_eff</sender>
    <signal>clicked(bool)</signal>
    <receiver>Form</receiver>
    <slot>activate_var_eff()</slot>
@@ -1389,7 +2094,7 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
   <connection>
-   <sender>checkBox_2</sender>
+   <sender>Ele_on_off</sender>
    <signal>clicked(bool)</signal>
    <receiver>Form</receiver>
    <slot>activate_onoff()</slot>
@@ -1420,18 +2125,46 @@ p, li { white-space: pre-wrap; }
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>wind_speed_data</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>get_wind_speed_data()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>723</x>
+     <y>385</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1088</x>
+     <y>391</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>build_electrolyser()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>846</x>
+     <y>549</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>851</x>
+     <y>630</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>display_sub_window()</slot>
   <slot>calculate()</slot>
-  <slot>JudgeEff()</slot>
-  <slot>activate_wind()</slot>
-  <slot>show_wt_power()</slot>
-  <slot>show_wt_speed()</slot>
-  <slot>show_wt_cf()</slot>
-  <slot>open_ad_model()</slot>
   <slot>activate_var_eff()</slot>
   <slot>activate_onoff()</slot>
   <slot>build_wind_turbine()</slot>
+  <slot>get_wind_speed_data()</slot>
+  <slot>build_electrolyser()</slot>
  </slots>
 </ui>

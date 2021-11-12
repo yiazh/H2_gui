@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>wind_built_dialog</class>
- <widget class="QDialog" name="wind_built_dialog">
+ <class>calc_suc_dialog</class>
+ <widget class="QDialog" name="calc_suc_dialog">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>364</width>
-    <height>128</height>
+    <width>330</width>
+    <height>120</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Status</string>
+   <string>Dialog</string>
   </property>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>230</x>
+     <x>210</x>
      <y>80</y>
      <width>93</width>
      <height>28</height>
@@ -29,10 +29,10 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>20</y>
-     <width>191</width>
-     <height>41</height>
+     <x>60</x>
+     <y>30</y>
+     <width>141</width>
+     <height>35</height>
     </rect>
    </property>
    <property name="minimumSize">
@@ -47,7 +47,7 @@
     </font>
    </property>
    <property name="text">
-    <string>Succesfully built</string>
+    <string>Completed</string>
    </property>
   </widget>
  </widget>
@@ -56,16 +56,16 @@
   <connection>
    <sender>pushButton</sender>
    <signal>clicked()</signal>
-   <receiver>wind_built_dialog</receiver>
+   <receiver>calc_suc_dialog</receiver>
    <slot>close()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>193</x>
-     <y>94</y>
+     <x>259</x>
+     <y>76</y>
     </hint>
     <hint type="destinationlabel">
-     <x>190</x>
-     <y>190</y>
+     <x>262</x>
+     <y>179</y>
     </hint>
    </hints>
   </connection>

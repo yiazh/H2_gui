@@ -20,16 +20,17 @@ class Ui_wind_built_dialog(object):
         wind_built_dialog.resize(364, 128)
         self.pushButton = QPushButton(wind_built_dialog)
         self.pushButton.setObjectName(u"pushButton")
-        self.pushButton.setGeometry(QRect(140, 80, 93, 28))
+        self.pushButton.setGeometry(QRect(230, 80, 93, 28))
         self.label = QLabel(wind_built_dialog)
         self.label.setObjectName(u"label")
         self.label.setGeometry(QRect(30, 20, 191, 41))
+        self.label.setMinimumSize(QSize(0, 35))
         font = QFont()
-        font.setPointSize(13)
+        font.setPointSize(10)
         self.label.setFont(font)
 
         self.retranslateUi(wind_built_dialog)
-        self.pushButton.clicked.connect(wind_built_dialog.exec)
+        self.pushButton.clicked.connect(wind_built_dialog.close)
 
         QMetaObject.connectSlotsByName(wind_built_dialog)
     # setupUi

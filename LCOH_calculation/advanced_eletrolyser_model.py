@@ -5,7 +5,7 @@ Author: Yi Zheng, Department of Electrical Engineering, DTU
 
 '''
 from abc import ABC, abstractmethod
-from economic import capital_recovery_factor
+from LCOH_calculation.economic import capital_recovery_factor
 # from electrolyser import *
 
 # def faraday_fun(current):

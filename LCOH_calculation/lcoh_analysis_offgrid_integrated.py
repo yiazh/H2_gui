@@ -8,9 +8,9 @@ Author: Yi Zheng, Department of Electrical Engineering, DTU
 
 '''
 
-from wind_turbine import wind_turbine
-from advanced_eletrolyser_model import *
-from economic import capital_recovery_factor
+from LCOH_calculation.wind_turbine import wind_turbine
+from LCOH_calculation.advanced_eletrolyser_model import *
+from LCOH_calculation.economic import capital_recovery_factor
 
 import matplotlib.pyplot as plt
 import pandas as pd
