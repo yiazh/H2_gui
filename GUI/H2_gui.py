@@ -4,6 +4,12 @@ Created on:20210717
 Author: Yi Zheng, Department of Electrical Engineering, DTU
 
 '''
+import sys
+import os
+curPath = os.path.abspath(os.path.dirname(__file__))
+rootPath = os.path.split(curPath)[0]
+sys.path.append(rootPath)
+
 from PySide2.QtWidgets import *
 from LCOH_calculation.wind_turbine import wind_turbine
 from LCOH_calculation.advanced_eletrolyser_model import AEL_system
@@ -15,9 +21,7 @@ from calc_suc_dialog import Ui_calc_suc_dialog
 import Mainwindow
 import pandas as pd
 
-import sys
 from qt_material import apply_stylesheet
-sys.path.append('C:/PhD/H2_gui')
 
 class PtX_gui(QWidget, Mainwindow.Ui_Form):
 
